@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAP-demo</title>
+    <link rel="stylesheet" href="./static/toastr/index.css">
+    <script>eval(`${require('raw-loader!../../../node_modules/lib-flexible/flexible.js')}`)</script>
+</head>
+
+<body>
+    ${require('html-loader!./components/header.html')}
+
+    ${require('html-loader!./components/mapdata.html')}
+
+    
+    <script src="./static/jquery.js"></script>
+    <script src="./static/toastr/index.js"></script>
+    <script
+        src="https://webapi.amap.com/maps?v=1.4.13&key=e455d11e472c7d8a0aae0c894f74fa3a&plugin=AMap.MarkerClusterer"></script>
+    <!--    <script src="//webapi.amap.com/ui/1.0/main.js?v=1.0.11"></script>-->
+</body>
+
+</html>
